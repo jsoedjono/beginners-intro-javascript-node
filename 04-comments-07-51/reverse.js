@@ -9,3 +9,8 @@ function reverseString(value) {
 }
 
 console.log(reverseString("Reverse Me"));
+// is singleline comments
+
+/*
+this is multiline comment
+*/

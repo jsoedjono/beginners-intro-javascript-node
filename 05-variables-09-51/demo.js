@@ -7,9 +7,14 @@ console.log(hello);
 
 // block scoped, can be changed in scope, only avaiable after declaration
 if (true) {
+    //console.log(world); this makes error because block scoped
     let world = "Hello World nopes";
     console.log(world);
+    hello = "Hello";
+    console.log(hello);
 }
+hello = "forlet";
+console.log(hello);
 // console.log(world);
 
 // const is block scoped, like let

@@ -28,3 +28,14 @@ console.log("********Converting numbers to strings********");
 console.log(num1.toString());
 console.log(flo1.toString());
 console.log((100).toString());
+
+
+//Converting between numbers and strings
+
+//parseInt() and parseFloat()
+//Convert numerical strings to numbers
+//Adding non-numerical characters can have unintended results
+//parseFloat() is for floating point numbers, numbers with decimal points
+
+//toString()
+//Convert numbers to numerical strings
